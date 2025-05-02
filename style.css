@@ -1,0 +1,141 @@
+
+body{
+  font-family:Andalé Mono ,monospace ;
+  margin: 0px;
+}
+
+
+
+
+
+.background-image{
+  z-index:-1;
+  position: fixed;
+  width: 100%;
+  
+  display: block;
+  top: 0;
+}
+ 
+.MP{
+  width: 600px;
+}
+
+
+header{
+  background-color: rgba(0, 0, 0, 0.656);
+  height: 110px;
+ position: fixed;
+ top: 0;
+  left: 0;
+  width: 1550px;
+  z-index: 2;
+
+}
+
+main{
+  margin-top:-10px;
+  
+  width: 1550px;
+  position: relative;
+}
+
+
+
+ 
+
+.files h3{
+  margin-left: 40px;
+  margin-top: 120px;
+  font-size: 70px;
+  transition: 0.2s ease-in-out;
+  
+}
+
+.files{
+  display: block;
+  border: 1px solid black;
+  height: 1600px;
+  width: 1550px;
+    background-color: rgba(0, 0, 0, 0.289);
+  }
+
+.files p{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom:0 ;
+  transition: 0.2s ease-in-out;
+}
+
+div{
+  margin: 10 0 10 0;
+}
+
+
+.files a{
+  margin-left: 40px;
+  margin-bottom: 0px;
+  padding: 2px;
+  border: 1px solid black;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.523);
+  transition: 0.2s ease-in-out;
+  font-size: 14px;
+  text-decoration: none;
+  width: 500px;
+  
+}
+
+.files a:hover{
+
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    color:rgb(100, 100, 255);
+    background-color:rgba(54, 54, 54, 0.397);
+    
+    
+   
+}
+
+
+.newest{
+  margin-left: 10px;
+  margin-bottom: 1px;
+  padding: 2px;
+  border: 1px solid black;
+  display: block;
+}
+
+
+
+
+
+p:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+
+
+h3:hover{
+  color:white;
+  transition: 0.2s ease-in-out;
+}
+
+
+img:hover{
+  transform:scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+img{
+  transition: 0.2s ease-in-out;
+}
+
+header img{
+  width: 80px;
+  margin: 10px 0 0 20px ;
+}
+
+.main img:hover{
+  transform: scale(1);
+}
